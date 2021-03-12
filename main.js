@@ -1,11 +1,11 @@
-const readlineSync = require('readline')
+const readlineSync = require('readline-sync')
 const chalk = require('chalk') 
 
 const { calc } = require('./calculator')
 
 while(true) {
-const op = readlineSync.question('Operation: ')
 
+const op = readlineSync.question('Operation: ')
 let nb1 = readlineSync.question('nb1: ')
 nb1 = Number(nb1)
 
