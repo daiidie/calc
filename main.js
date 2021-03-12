@@ -1,0 +1,6 @@
+const op = require('./operation')
+console.log(op.add(10, 21))
+console.log(op.sub(10, 21))
+console.log(op.mul(10, 21))
+console.log(op.div(21, 21))
+console.log(op.modulo(10, 2))
